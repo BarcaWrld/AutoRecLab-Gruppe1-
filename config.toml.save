@@ -1,4 +1,4 @@
-[treesearch]
+model = "gpt-4o-mini"[treesearch]
 num_draft_nodes = 3
 debug_prob = 0.3
 epsilon = 0.3
@@ -12,8 +12,5 @@ workspace = "./workspace"
 k_fold_validation = 1
 
 [agent.code]
-model = "gpt-4o-mini"
+model = "gpt-5-mini"
 model_temp = 1.0
-
-
-
